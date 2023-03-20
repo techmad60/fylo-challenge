@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+  <link href="style.css" rel="stylesheet" >
+ 
+</head>
+
+<body>
+  <header>
+    <nav aria-labelledby="header-nav-label" class="header-nav">
+      <a href="#">
+        <img src="images/logo.svg" alt="fylo-logo" loading="lazy"
+        class="header-logo">
+      </a>
+      <ul>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Sign In</a></li>
+      </ul>
+    </nav>
+
+    
+    
+    <span id="header-nav-label" class="visually-hidden">Header Navigation</span>
+
+    <section>
+      <img src="images/illustration-1.svg" alt="illustration-1" loading="lazy" class=illustration-img>
+      
+      <div>
+        <h1>
+          All your files in one secure location, accessible anywhere.
+        </h1>
+  
+        <p>
+          Fylo stores your most important files in one secure location. 
+          Access them wherever you need, share and collaborate with friends, 
+          family, and co-workers.
+        </p>
+  
+        <form id="form-one">
+          <div class="input-items">
+          <input type="email" id="email" placeholder="Enter your email..." class="input-email">
+          <span id="email-error" class="valid">Please check your email</span>
+          <span id="invalid-email-error" class="invalid" >Invalid email</span>
+          </div>
+          
+          <button type="submit" value="Get Started" class="C.t.a button-submit">Get Started</button>
+        </form>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <img src="images/bg-curve-mobile.svg" alt="curved-image" loading="lazy" class="bg-curve-mobile">
+    <img src="images/bg-curve-desktop.svg" alt="curved-image" loading = "lazy" class="bg-curve-desktop">
+
+    
+    <section class="main-section">
+      <img src="images/illustration-2.svg"
+      alt="illustration-2" loading="lazy" class="illustration-img">
+
+      <div>
+        <h2>
+          Stay productive, wherever you are
+        </h2>
+  
+        <p class="main-p">
+          Never let location be an issue when accessing your files. Fylo has you 
+          covered for all of your file storage needs.
+        </p>
+  
+        <p class="main-p">
+          Securely share files and folders with friends, family and colleagues for 
+          live collaboration. No email attachments required!
+        </p>
+        
+        <a href="#" class=" main-cta ">
+          <p>
+            See how Fylo works 
+          </p>
+          
+          <img src="images/icon-arrow.svg" alt="icon-arrow" class="icon-arrow"/>
+        </a>
+          
+        
+      
+        <section class="section-blockquote">
+          <blockquote>
+            <img src="images/icon-quotes.svg" alt="quotation-mark">
+            
+            <p>
+              Fylo has improved our team productivity by an order of magnitude. Since 
+              making the switch our team has become a well-oiled collaboration machine.
+            </p>
+            
+            <figure>
+              <img src="images/avatar-testimonial.jpg" alt="CEO of Huddle">
+            
+              <figcaption>
+                <span>Kyle Burton</span>  
+                <br>
+                <span class="figcaption-descriptive">Founder & CEO, Huddle</span>
+              </figcaption>
+            </figure>
+          </blockquote>
+        </section>
+      </div>
+      
+    </section>
+
+    <section class="section-form">
+
+      <div class="text">
+        <h3>Get early access today</h3>
+
+        <p>
+          It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
+        </p>
+      </div>
+      
+
+      <form id="form-two">
+        <div class="form-items">
+          <div class="input-items">
+            <input type="email" id="email-two" placeholder="email@example.com" class="input-email">
+            <span class="valid-two" id="email-error-two" >Please check your email</span>
+            <span class="invalid" id="invalid-email-error-two">Invalid email</span>
+          </div>
+          <div>
+            <button type="submit" value="Get Started For Free" class="button-submit C.t.a"> Get Started For Free</button>
+          </div>
+          
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <img src="images/logo.svg" class="footer-logo">
+      <p>
+        <img src="images/icon-phone.svg" alt="Phone-icon">
+        <span>Phone: <a href="#" tel="+15431234567">+1-543-123-4567</a></span>
+      </p>
+  
+      <p>
+        <img src="images/icon-email.svg" alt="Email-icon">
+        <span><a href="mailto:example@fylo.com">example@fylo.com</a></span>
+      </p>
+  
+    </div>
+    
+    <nav aria-labelledby="footer-nav-label">
+      <ul>
+        <div>
+          <p>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#"> Blog</a></li>
+          </p>
+        </div>
+        
+        <div>
+          <p>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#"> Privacy</a></li>
+            </p>
+        </div>
+        
+        
+      </ul>
+    </nav>
+
+    <section class="social-icons">
+      <a href="#"class ="social-icon"><i class="ri-facebook-fill"></i></a>
+      <a href="#"class ="social-icon"><i class="ri-twitter-fill"></i></a>
+      <a href="#"class ="social-icon"><i class="ri-instagram-line"></i></a></i>
+    </section>
+    
+    <span id="footer-nav-label" class="visually-hidden">Footer Navigation</span>
+
+    <p class="attribution">
+      <span>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a><br>
+      Coded by <a href="#">Techmad.x</a>.</span>
+    </p>
+    
+  </footer>
+</body>
+<script src="app.js"></script>
+</html>
